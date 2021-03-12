@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    node: true,
+  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -14,13 +17,24 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: ['react-hooks'],
   rules: {
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 0,
     'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'crlf',
+      },
+    ],
     'no-irregular-whitespace': 'off',
-    indent: ['error', 2, { switchCase: 1 }],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'linebreak-style': ['error', 'windows'],
     semi: ['error', 'always'],
     'eol-last': ['error', 'always'],

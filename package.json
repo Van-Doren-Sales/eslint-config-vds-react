@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/eslint-config-vds-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Our eslint config to be used for all of our React projects, to keep consistency.",
   "main": "index.js",
   "scripts": {
