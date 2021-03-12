@@ -1,6 +1,8 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   env: {
     node: true,
+    browser: true,
   },
   parserOptions: {
     ecmaVersion: 2020,
@@ -12,6 +14,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
@@ -22,7 +26,7 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['react-hooks'],
+  plugins: ['react-hooks', '@typescript-eslint'],
   rules: {
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 0,
