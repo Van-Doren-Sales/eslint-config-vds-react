@@ -1,0 +1,47 @@
+{
+  "name": "@vandorensales/eslint-config-vds-react",
+  "version": "1.0.0",
+  "description": "Our eslint config to be used for all of our React projects, to keep consistency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "react",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Van Doren Sales",
+  "license": "MIT",
+  "homepage": "https://www.vandorensales.com",
+  "bugs": {
+    "url": "https://github.com/Van-Doren-Sales/eslint-config-vds-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Van-Doren-Sales/eslint-config-vds-react"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
